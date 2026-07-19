@@ -23,3 +23,8 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+const yearElement = document.getElementById('year');
+if (yearElement) {
+	yearElement.textContent = new Date().getFullYear();
+}
